@@ -1,0 +1,82 @@
+body {
+  background-color: #fbf7e7;
+  font-family: 'Ysabeau Office', sans-serif;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  margin-top: 40px;
+}
+
+.app {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  min-height: 80vh;
+  width: 400px;
+  background-color: #fefdf487;
+}
+
+.containerThree {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+ul, li {
+  list-style-type: none;
+  padding: 5px;
+  font-size: 16px;
+  font-family: 'Ysabeau Office', sans-serif;
+}
+
+.crossed {
+  text-decoration: line-through 2px #ff8787ea;
+}
+
+
+.check {
+  margin-right: 15px;
+}
+
+input {
+  font-family: 'Ysabeau Office', sans-serif;
+  padding: 3px;
+}
+
+button {
+  font-family: 'Ysabeau Office', sans-serif;
+
+}
+
+.containerTwo, .btn {
+  display: flex;
+  justify-content: center;
+}
+
+.add {
+  margin-top: 20px;
+  padding: 5px;
+  width: 60%;
+  background-color: #cfedb3;
+  border: none;
+  font-size: 14px;
+}
+
+.add:hover{
+  background-color: #d3f7b0;
+}
+
+.delete {
+  margin-top: 20px;
+  padding: 5px;
+  width: 60%;
+  background-color: #f9caca;
+  border: none;
+  font-size: 14px;
+}
+
+.delete:hover{
+  background-color: #ffc3c3;
+}
