@@ -37,14 +37,10 @@ export class GroceryList extends Component{
         this.setState({groceryList: listArray})
     }
 
-    enterBtn(e){
-        e.preventDefault
-    }
 
     render() {
         return(
             <div>
-                <form onSubmit={this.enterBtn}>
                     <div className="containerTwo">
                         <input type="text" 
                         placeholder="Enter an item..."
@@ -71,7 +67,7 @@ export class GroceryList extends Component{
                                 </li>
                         ))}
                     </ul>
-                </form>
+               
             </div>
             
         )
